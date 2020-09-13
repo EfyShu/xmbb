@@ -1,11 +1,13 @@
 package com.efy;
 
-/**
- * @Project xmbb
- * @Date 2020/9/13 12:34
- * @Created by thinkpad
- * @Description TODO
- */
+
+import com.efy.frame.MainFrame;
+import javafx.application.Application;
+
 public class Main {
 
+    public static void main(String[] args) {
+        //变通方式,指定启动类
+        Application.launch(MainFrame.class,args);
+    }
 }
