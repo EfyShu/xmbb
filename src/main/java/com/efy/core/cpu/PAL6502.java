@@ -6,5 +6,5 @@ package com.efy.core.cpu;
  * @Created by Efy
  * @Description TODO
  */
-public class C6502 {
+public class PAL6502 {
 }
